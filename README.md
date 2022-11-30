@@ -1,2 +1,2 @@
 # advent-of-code-22
-Advent of Code 2022
+My func Solutions to Advent of Code 2022
