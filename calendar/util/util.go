@@ -1,15 +1,13 @@
-package calendar
+package util
 
 import (
 	"bufio"
+	"embed"
 	"log"
-	"os"
 )
 
-type Solution func()
-
-func readFileByLine(fileName string, processLine func(string)) {
-	file, err := os.Open(fileName)
+func ReadFileByLine(content embed.FS, fileName string, processLine func(string)) {
+	file, err := content.Open(fileName)
 
 	if err != nil {
 		log.Fatal(err)

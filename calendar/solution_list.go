@@ -8,6 +8,8 @@ import (
 	__day_five "github.com/jarvainen/advent-of-code-22/calendar/5_day_five"
 )
 
+type Solution func()
+
 var Solutions = [24]Solution{
 	__day_one.Solution,
 	__day_two.Solution,
