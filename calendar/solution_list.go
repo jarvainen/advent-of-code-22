@@ -6,6 +6,7 @@ import (
 	__day_three "github.com/jarvainen/advent-of-code-22/calendar/3_day_three"
 	__day_four "github.com/jarvainen/advent-of-code-22/calendar/4_day_four"
 	__day_five "github.com/jarvainen/advent-of-code-22/calendar/5_day_five"
+	__day_six "github.com/jarvainen/advent-of-code-22/calendar/6_day_six"
 )
 
 type Solution func()
@@ -16,4 +17,5 @@ var Solutions = [24]Solution{
 	__day_three.Solution,
 	__day_four.Solution,
 	__day_five.Solution,
+	__day_six.Solution,
 }
