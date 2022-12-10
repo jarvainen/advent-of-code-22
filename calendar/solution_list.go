@@ -1,6 +1,7 @@
 package calendar
 
 import (
+	_0_day_ten "github.com/jarvainen/advent-of-code-22/calendar/10_day_ten"
 	__day_one "github.com/jarvainen/advent-of-code-22/calendar/1_day_one"
 	__day_two "github.com/jarvainen/advent-of-code-22/calendar/2_day_two"
 	__day_three "github.com/jarvainen/advent-of-code-22/calendar/3_day_three"
@@ -24,4 +25,5 @@ var Solutions = [24]Solution{
 	__day_seven.Solution,
 	__day_eight.Solution,
 	__day_nine.Solution,
+	_0_day_ten.Solution,
 }
